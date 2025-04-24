@@ -1,0 +1,143 @@
+.features-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+  background: white;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0 2rem;
+  text-align: center;
+}
+.header>img{
+  height: 70%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+h1 span {
+  font-family: cursive;
+  font-weight: 400;
+  position: relative;
+  display: inline-block;
+}
+
+/* Custom wavy underline for "mello" */
+h1 span::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  right: -15px;
+  width: 100%;
+  height: 10px;
+  background-image: url("Vector\ 5.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: 'Open Sans', sans-serif !important;
+
+}
+
+.content-container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 20px;
+}
+
+.feature-main-image {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 20px;
+  transition: transform 1s ease, opacity 1s ease;
+}
+
+.features-container {
+  flex: 2;
+  padding: 2rem 4rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.features {
+  list-style: none;
+  border-top: 1px solid #AFAFAF;
+
+}
+
+.feature-item {
+  padding: 2rem 0;
+  border-bottom: 1px solid #AFAFAF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+.feature-number {
+  color: #999;
+  font-size: 1.25rem;
+  margin-right: 1rem;
+  font-family: 'Open Sans', sans-serif !important;
+
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 400;
+}
+
+.feature-icon {
+  color: #555;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .content-container {
+      flex-direction: column;
+      overflow-y: auto;
+  }
+
+  .image-container, .features-container {
+      flex: none;
+      width: 100%;
+  }
+
+  .image-container {
+      height: 40%;
+  }
+
+  .features-container {
+      height: 60%;
+  }
+}

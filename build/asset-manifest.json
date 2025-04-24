@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8e120d61.css",
+    "main.js": "/static/js/main.7dd8f0e4.js",
+    "static/media/memory.png": "/static/media/memory.4a568cf95af9f374e810.png",
+    "static/media/orb.png": "/static/media/orb.ab5c0014a953f873feff.png",
+    "static/media/ai (2).png": "/static/media/ai (2).907d0330f25ff6321cd8.png",
+    "static/media/flower 3.png": "/static/media/flower 3.d5c1a31fea6ae7348f20.png",
+    "static/media/voice.png": "/static/media/voice.7855c7d54998e9ee6210.png",
+    "static/media/flower-glow.png": "/static/media/flower-glow.5a5d1818d3e3cd2a6610.png",
+    "static/media/flower 2.png": "/static/media/flower 2.ff9ab8806c24de979346.png",
+    "static/media/flower 4.png": "/static/media/flower 4.186e34ab70a214e25887.png",
+    "static/media/comingsoon.jpg": "/static/media/comingsoon.bfef5a84c81b71368cb1.jpg",
+    "static/media/bg-abstract.jpg": "/static/media/bg-abstract.eabef09859d3c37b236a.jpg",
+    "static/media/gentle.jpg": "/static/media/gentle.8801fb3e8257f76b1d17.jpg",
+    "static/media/Group 13.png": "/static/media/Group 13.82ceb6a2bb88d5640b77.png",
+    "static/media/group text.png": "/static/media/group text.0d8be77deb0f2a852f17.png",
+    "static/media/Group 15.png": "/static/media/Group 15.a3b058c78f067eaf0174.png",
+    "index.html": "/index.html",
+    "main.8e120d61.css.map": "/static/css/main.8e120d61.css.map",
+    "main.7dd8f0e4.js.map": "/static/js/main.7dd8f0e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e120d61.css",
+    "static/js/main.7dd8f0e4.js"
+  ]
+}
