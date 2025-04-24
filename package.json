@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "cors": "^2.8.5",
     "lucide-react": "^0.503.0",
     "postcss-loader": "^8.1.1",
     "react": "^18.2.0",
