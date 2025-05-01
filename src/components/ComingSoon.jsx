@@ -63,7 +63,7 @@ const ComingSoon = () => {
                 <div className="footer-right">
                     <a href="#">Instagram</a>
                     <span className="separator"> / </span>
-                    <a href="https://x.com/MellowHealth">X.com</a>
+                    <a href="https://x.com/MelloHealthAI">X.com</a>
                 </div>
             </footer>
         </div>
