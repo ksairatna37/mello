@@ -158,7 +158,7 @@ app.post('/api/notify', async (req, res) => {
               <p> 2025 Mello Health. All rights reserved.</p>
               <p>You're receiving this email because you signed up for updates from Mello.</p>
               <div class="social-icons">
-                <a href="https://x.com/MellowHealth">X.com</a> •
+                <a href="https://x.com/MelloHealthAI">X.com</a> •
                 <a href="#">Instagram</a> •
               </div>
             </div>
