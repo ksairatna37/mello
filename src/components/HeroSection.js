@@ -20,7 +20,7 @@ const HeroSection = () => {
       <div className="hero-outer-box hero-outer-box-left" style={{ width: '60%' }}>
         <div className="hero-header-row">
           <div className="mello-logo-text">mello</div>
-          <div className="connect-btn-pixel">LETS CONNECT <span className="icon-pixel"><a href="#" target="_blank" rel="noopener noreferrer"><img src={instagramImg} alt="Instagram" style={{ width: 40, height: 40, marginRight: 15 }} /></a><a href="https://x.com/MellowHealth" target="_blank" rel="noopener noreferrer"><img src={xImg} alt="X" style={{ width: 40, height: 40 }} /></a></span></div>
+          <div className="connect-btn-pixel">LETS CONNECT <span className="icon-pixel"><a href="#" target="_blank" rel="noopener noreferrer"><img src={instagramImg} alt="Instagram" style={{ width: 40, height: 40, marginRight: 15 }} /></a><a href="https://x.com/MelloHealthAI" target="_blank" rel="noopener noreferrer"><img src={xImg} alt="X" style={{ width: 40, height: 40 }} /></a></span></div>
         </div>
         <div className="hero-main-pixel">
           <img src={group11} alt="hero graphic" className="group11-hero-img" />
